@@ -1,0 +1,9 @@
+#define macro main() {
+    0x20
+    0x00 calldataload
+    mod
+    0x00
+    iszero
+    mstore
+    0x20 0x00 retrun
+}

@@ -1,0 +1,12 @@
+// #define function getBlock() view returns (uint256)
+
+#define macro GET_BLOCK() = takes(0) returns(0) {
+    number
+    0x00
+    mstore
+    0x20 0x00 return
+}
+
+#define macro MAIN() = takes(0) returns(0) {
+    GET_BLOCK()
+}
